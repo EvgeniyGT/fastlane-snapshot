@@ -8,8 +8,12 @@ platform :ios do
   lane :generate_screenshots do
     snapshot(
         scheme: "Target1",
-        #test_target_name: "Target2",
+        test_target_name: "Target1",
         app_identifier: "com.fastlane-snapshot-target1.ios"
     )
+  end
+  
+  after_all do |lane|
+    clean_build_artifacts
   end
 end

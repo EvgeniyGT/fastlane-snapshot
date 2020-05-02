@@ -23,16 +23,6 @@
 		C5BF4BF536F1E5318631D59F /* Pods_Target2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73AEC82D518258BCD899F634 /* Pods_Target2.framework */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		7A7A3324245D6A0100F38C65 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 7A7A32EC245D629500F38C65 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7A7A32F3245D629500F38C65;
-			remoteInfo = Target1;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		0BAA82494525719A49045BF0 /* Pods-Target2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Target2.debug.xcconfig"; path = "Target Support Files/Pods-Target2/Pods-Target2.debug.xcconfig"; sourceTree = "<group>"; };
 		1F57FA88EF9C501FDA54D03D /* Pods_Target1.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Target1.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -199,7 +189,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				7A7A3325245D6A0100F38C65 /* PBXTargetDependency */,
 			);
 			name = UITests;
 			productName = UITests;
@@ -221,7 +210,6 @@
 					};
 					7A7A331E245D6A0100F38C65 = {
 						CreatedOnToolsVersion = 11.4.1;
-						TestTargetID = 7A7A32F3245D629500F38C65;
 					};
 				};
 			};
@@ -385,14 +373,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		7A7A3325245D6A0100F38C65 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 7A7A32F3245D629500F38C65 /* Target1 */;
-			targetProxy = 7A7A3324245D6A0100F38C65 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		7A7A32FD245D629500F38C65 /* Main.storyboard */ = {
@@ -631,9 +611,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fastlane-snapshot.ios.UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Target1;
 			};
 			name = Debug;
 		};
@@ -651,9 +631,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.fastlane-snapshot.ios.UITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = Target1;
 			};
 			name = Release;
 		};
