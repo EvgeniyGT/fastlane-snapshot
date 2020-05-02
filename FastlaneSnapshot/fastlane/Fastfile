@@ -1,0 +1,15 @@
+fastlane_version "2.146.1"
+
+default_platform :ios
+
+platform :ios do
+  
+  desc "Generate Screenshots"
+  lane :generate_screenshots do
+    snapshot(
+        scheme: "Target1",
+        #test_target_name: "Target2",
+        app_identifier: "com.fastlane-snapshot-target1.ios"
+    )
+  end
+end

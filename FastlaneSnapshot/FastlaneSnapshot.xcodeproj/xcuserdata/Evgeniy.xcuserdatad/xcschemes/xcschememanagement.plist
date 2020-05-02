@@ -4,10 +4,38 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>FastlaneSnapshot.xcscheme_^#shared#^_</key>
+		<key>Target1.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
+		</dict>
+		<key>Target2.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>UITests.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>7A7A32F3245D629500F38C65</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7A7A330B245D635C00F38C65</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7A7A331E245D6A0100F38C65</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>
